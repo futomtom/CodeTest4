@@ -4,8 +4,6 @@ use_frameworks!
 target "CodeTest3"
 pod 'Alamofire'
 pod 'AlamofireObjectMapper'
-pod 'SnapKit'
-pod 'CheckboxButton'
-
-
-
+pod 'EZLoadingActivity'
+pod 'ENSwiftSideMenu'
+pod 'Kingfisher'

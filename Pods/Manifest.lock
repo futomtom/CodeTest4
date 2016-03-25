@@ -3,23 +3,26 @@ PODS:
   - AlamofireObjectMapper (2.1.2):
     - Alamofire (~> 3.2)
     - ObjectMapper (~> 1.0)
-  - CheckboxButton (3.0.1)
+  - ENSwiftSideMenu (0.1)
+  - EZLoadingActivity (0.8)
+  - Kingfisher (2.2.0)
   - ObjectMapper (1.1.5)
-  - SnapKit (0.19.1)
 
 DEPENDENCIES:
   - Alamofire
   - AlamofireObjectMapper
-  - CheckboxButton
-  - SnapKit
+  - ENSwiftSideMenu
+  - EZLoadingActivity
+  - Kingfisher
 
 SPEC CHECKSUMS:
   Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
   AlamofireObjectMapper: 82391c31f23e37bdb2660da174bcf81b202da39d
-  CheckboxButton: 5985dded3be8a4e6ecb65af8f437d05fd79f58d9
+  ENSwiftSideMenu: 4e17a97d1d92c1a9c7267993a167e27e0a10422d
+  EZLoadingActivity: 6fd75a05765a4085f4b6fef6f62edf9f144b3139
+  Kingfisher: 350869ed88d6451803b390475d977abdd9f0a357
   ObjectMapper: 528b1a6677a6acac7747edd508576983e76a9148
-  SnapKit: eff58d6e3451bf2f482db2eccf86aecf371dc62d
 
-PODFILE CHECKSUM: f4dd247880b37d1a9189cf96bf1cdb62e6510c16
+PODFILE CHECKSUM: f833e707e6f55007f4041db248b755bcc680d024
 
 COCOAPODS: 1.0.0.beta.4

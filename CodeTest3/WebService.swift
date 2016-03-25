@@ -23,7 +23,7 @@ class WebService {
   
     static func GetData(completion: (success: Bool, result: [Item]?) -> Void)
     {
-        let URL="https://s3-us-west-1.amazonaws.com/candidate-test/sample_json"
+        let URL="http://www.crunchyroll.com/mobile-tech-challenge/images.json"
 
         Alamofire.request(.GET,URL)
                 .validate(statusCode: 200..<300)

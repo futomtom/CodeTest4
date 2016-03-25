@@ -86,14 +86,16 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$CONFIGURATION_BUILD_DIR/Alamofire/Alamofire.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/AlamofireObjectMapper/AlamofireObjectMapper.framework"
-  install_framework "$CONFIGURATION_BUILD_DIR/CheckboxButton/CheckboxButton.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/ENSwiftSideMenu/ENSwiftSideMenu.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/EZLoadingActivity/EZLoadingActivity.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/Kingfisher/Kingfisher.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/ObjectMapper/ObjectMapper.framework"
-  install_framework "$CONFIGURATION_BUILD_DIR/SnapKit/SnapKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$CONFIGURATION_BUILD_DIR/Alamofire/Alamofire.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/AlamofireObjectMapper/AlamofireObjectMapper.framework"
-  install_framework "$CONFIGURATION_BUILD_DIR/CheckboxButton/CheckboxButton.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/ENSwiftSideMenu/ENSwiftSideMenu.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/EZLoadingActivity/EZLoadingActivity.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/Kingfisher/Kingfisher.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/ObjectMapper/ObjectMapper.framework"
-  install_framework "$CONFIGURATION_BUILD_DIR/SnapKit/SnapKit.framework"
 fi
